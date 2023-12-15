@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("https://transparenttextures.com/patterns/stardust.png");
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    color: #E3E3E3;
+    padding: 10px;
+    width: "100%";
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: large;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin: 2px;
+    transition: 0.3s ease;
+    color: #E3E3E3;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.57), 0 0 0 10px rgba(173, 216, 230, 0.3);
+    transform: translateY(-2px);
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    margin-right: 0.5px;
+}
+
+#p2 {
+    margin-top: -8px;
+}
+
+#p3 {
+    margin-top: -8px;
+}
+
+h1 {
+    color: #E3E3E3;
+}

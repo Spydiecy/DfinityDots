@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "dfinitydots_backend": {
+      "main": "src/dfinitydots_backend/main.mo",
+      "type": "motoko"
+    },
+    "dfinitydots_frontend": {
+      "dependencies": [
+        "dfinitydots_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/dfinitydots_frontend/src/index.html"
+      },
+      "source": [
+        "src/dfinitydots_frontend/assets",
+        "dist/dfinitydots_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
