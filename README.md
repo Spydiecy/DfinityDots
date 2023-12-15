@@ -1,4 +1,5 @@
 # DfinityDots: A Pixelo NFT Maker
+![Screenshot 2023-12-15 011847](https://github.com/Spydiecy/DfinityDots/assets/100078125/bf45ad07-cec1-4e1d-b220-5606c6f1e3a1)
 
 ## Description
 
