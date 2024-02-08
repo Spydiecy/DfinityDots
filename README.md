@@ -13,11 +13,13 @@ DfinityDots is a decentralized application (DApp) that allows artists to create 
 
 ## Installation
 
-Provide instructions on how to install your DApp here.
+- Clone the repository.
+- Install the dependencies with `npm install`.
 
 ## Usage
 
-Provide instructions on how to use your DApp here.
+- Start the development server with `npm start`.
+- Open http://localhost:3000 to view the app in your browser.
 
 ## Challenges
 
@@ -29,8 +31,26 @@ Building DfinityDots presented several challenges:
 
 ## Contributing
 
-Provide instructions on how to contribute to your project here.
+We welcome contributions to DfinityDots! Here's how you can help:
+
+### Reporting Bugs
+
+- Open an issue in the GitHub repository.
+- Include as much detail as you can about the bug, including steps to reproduce, what you expected to happen, and what actually happened.
+
+### Suggesting Enhancements
+
+- Open an issue in the GitHub repository.
+- Clearly describe your enhancement, including why you think it would be useful.
+
+### Code Contributions
+
+1. Fork the repository and create your branch from `master`.
+2. If you've added code that should be tested, add tests.
+3. Ensure the test suite passes.
+4. Make sure your code lints.
+5. Issue that pull request!
 
 ## License
 
-Provide information about your project's license here.
+MI
