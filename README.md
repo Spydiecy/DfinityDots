@@ -53,4 +53,6 @@ We welcome contributions to DfinityDots! Here's how you can help:
 
 ## License
 
-MI
+MIT License
+
+Copyright (c) 2024 Tanishq
